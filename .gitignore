@@ -1,0 +1,52 @@
+#
+# .gitignore
+#
+
+# Build outputs
+build/
+bin/*
+
+# MRLaserTag config files
+assets/registration.txt
+
+# TensorFlow models
+*.h5
+*.hdf5
+
+# Python
+__pycache__
+
+# Visual Studio
+.vs
+
+# Unity
+unity/**/App/
+unity/**/UWP/
+unity/**/[Ll]ibrary/
+unity/**/[Tt]emp/
+unity/**/[Oo]bj/
+unity/**/[Bb]uild/
+unity/**/[Bb]uilds/
+unity/**/[Ll]ogs/
+unity/**/Assets/AssetStoreTools*
+unity/**/*.csproj
+unity/**/*.sln
+unity/**/.vsconfig
+unity/**/QCAR/
+unity/**/UserSettings/
+
+# UWP app that must be manually built
+src/model_tracker/vuforia_driver/build/DriverTemplate.dir
+src/model_tracker/vuforia_driver/build/Release
+src/model_tracker/vuforia_driver/build/x64
+src/model_tracker/vuforia_driver/out/
+src/model_tracker/**/*.obj
+src/model_tracker/**/*.dll
+src/model_tracker/**/*.exe
+src/model_tracker/**/*.pdb
+thirdparty/vuforia/**/Generated Files
+thirdparty/vuforia/**/samples
+thirdparty/vuforia/**/*.exe
+thirdparty/vuforia/**/*.obj
+thirdparty/vuforia/**/*.lib
+thirdparty/vuforia/**/*.pdb

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="o2right_cm_mat" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="o2right_cm_mats_assembly" assemblyId="1b08776bca6248fe912e2eddc6172b1b">
+<Part name="o2right_cm_mat" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0001" translation="-0.0208903 0.00060877 0.238431" rotation="AD: 0.9973218037822563 0.18457537803198407 -0.46932450500414946 218.678" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

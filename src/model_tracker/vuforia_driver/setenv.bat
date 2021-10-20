@@ -1,0 +1,1 @@
+set VUFORIA_SDK=c:\projects\vfuwp\vuforia-sdk-uwp-9-8-5

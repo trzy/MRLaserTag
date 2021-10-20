@@ -1,0 +1,101 @@
+<vuforiaproject version="6">
+  <project id="8b2cbdadc06c4a1a8d2f6a64f5378343" assemblyId="1b08776bca6248fe912e2eddc6172b1b" motionHint="adaptive" trackingMode="default" numDraws="1" numPolygons="5831" bubbleGummingSkipped="false" isBubbleGummed="false" originalNumMaterials="1" originalNumTextures="0" originalNumDraws="1" originalNumPolygons="5831">
+    <source file="C:\projects\MRLaserTag\unity\LaserTag\Assets\o2right_cm_mat.fbx" date="1618037513013"/>
+    <converted file=".converted\o2right_cm_mat.pvz" date="1618037532256"/>
+    <units length="Meters"/>
+  </project>
+  <progress skipGuideViewWizard="true" upVector="0" units="2" coloring="2" simplification="2" modelType="2" motionHint="2">
+  </progress>
+
+  <camera>
+    <position x="-0.5671310233645598" y="0.32267444993573513" z="0.6575908114133691"/>
+    <quaternion x="-0.22448726479459008" y="-0.36618988898697036" z="-0.09150064221518776" w="0.898408629535003"/>
+    <up x="0" y="1" z="0"/>
+    <setup x="0" y="1" z="0"/>
+  </camera>
+
+  <detectionpointcamera>
+    <position x="0.14749665874690743" y="0.16286428822557694" z="0.09490000442528854"/>
+    <quaternion x="-0.33115709941781535" y="0.39625198528339006" z="0.15583750517983133" w="0.8420415735837972"/>
+    <up x="0" y="1" z="0"/>
+    <setup x="0" y="1" z="0"/>
+  </detectionpointcamera>
+
+  <detectionpoints>
+    <detectionpoint name="viewpoint_0002" rating="5">
+      <camera device="1">
+        <worldUpVector x="0" y="1" z="0"/>
+        <target x="0" y="0" z="0"/>
+        <position x="0.14749665874690743" y="0.16286428822557694" z="0.09490000442528854"/>
+        <quaternion x="-0.33115709941781535" y="0.39625198528339006" z="0.15583750517983133" w="0.8420415735837972"/>
+        <up x="0" y="1" z="0"/>
+        <setup x="0" y="1" z="0"/>
+
+        <globalposition x="-0.020890341141241067" y="0.0006087699831921006" z="0.23843085917463658"/>
+        <axisangle x="0.9973218037822563" y="0.18457537803198407" z="-0.46932450500414946" w="3.81665186132315"/>
+      </camera>
+      <images>
+        <file type="shaded" name="viewpoint_0002_1.png"/>
+        <file type="edge" name="viewpoint_0002_2.png"/>
+      </images>
+    </detectionpoint>
+
+  </detectionpoints>
+  <trackingarea active="false">
+    <position x="0.008180312347412108" y="-0.0053694971231598165" z="-0.020344607672451644"/>
+    <quaternion x="0" y="0" z="0" w="1"/>
+    <scale x="1" y="1" z="1"/>
+    <corners>
+      <position x="-0.03791753249168396" y="-0.07266301126265452" z="-0.07607114623224977"/>
+      <position x="0.05427815718650818" y="-0.07266301126265452" z="-0.07607114623224977"/>
+      <position x="0.05427815718650818" y="0.0619240170163349" z="-0.07607114623224977"/>
+      <position x="-0.03791753249168396" y="0.0619240170163349" z="-0.07607114623224977"/>
+      <position x="-0.03791753249168396" y="-0.07266301126265452" z="0.03538193088734648"/>
+      <position x="0.05427815718650818" y="-0.07266301126265452" z="0.03538193088734648"/>
+      <position x="0.05427815718650818" y="0.0619240170163349" z="0.03538193088734648"/>
+      <position x="-0.03791753249168396" y="0.0619240170163349" z="0.03538193088734648"/>
+    </corners>
+  </trackingarea>
+  <dlproject active="true"/>
+  <targetvolumes>
+    <targetvolume active="true">
+      <position x="0.008180312347412108" y="-0.0053694971231598165" z="-0.020344607672451644"/>
+      <quaternion x="0" y="0" z="0" w="1"/>
+      <scale x="1" y="1" z="1"/>
+      <size x="0.09219568967819214" y="0.1345870282789894" z="0.11145307711959625"/>
+      <corners>
+        <position x="-0.03791753249168396" y="-0.07266301126265452" z="-0.07607114623224977"/>
+        <position x="0.05427815718650818" y="-0.07266301126265452" z="-0.07607114623224977"/>
+        <position x="0.05427815718650818" y="0.0619240170163349" z="-0.07607114623224977"/>
+        <position x="-0.03791753249168396" y="0.0619240170163349" z="-0.07607114623224977"/>
+        <position x="-0.03791753249168396" y="-0.07266301126265452" z="0.03538193088734648"/>
+        <position x="0.05427815718650818" y="-0.07266301126265452" z="0.03538193088734648"/>
+        <position x="0.05427815718650818" y="0.0619240170163349" z="0.03538193088734648"/>
+        <position x="-0.03791753249168396" y="0.0619240170163349" z="0.03538193088734648"/>
+      </corners>
+    </targetvolume>
+
+  </targetvolumes>
+  <camrendervols>
+    <camrendervol origincaptured="true" absdist="0" type="MT360">
+      <origin x="0.14749665874690743" y="-0.0053694971231598165" z="0.09490000442528854"/>
+      <position x="0.008180312347412108" y="-0.0053694971231598165" z="-0.020344607672451644"/>
+      <quaternion x="0" y="0.42579450896142607" z="0" w="0.9048198915465432"/>
+      <azim_range min="-3.141592653589793" max="3.141592653589793"/>
+
+      <elev_range min="-1.5707963267948966" max="1.5707963267948966"/>
+
+      <roll_range min="-3.141592653589793" max="3.141592653589793"/>
+
+    </camrendervol>
+
+  </camrendervols>
+  <orbitcontrols>
+    <target x="0.006353641971856439" y="-0.11460155087748955" z="0.07097416597731772"/>
+    <worldUpVector x="0" y="1" z="0"/>
+  </orbitcontrols>
+  <orbitdetection>
+    <target x="0.006353641971856439" y="-0.11460155087748955" z="0.07097416597731772"/>
+    <worldUpVector x="0" y="1" z="0"/>
+  </orbitdetection>
+</vuforiaproject>

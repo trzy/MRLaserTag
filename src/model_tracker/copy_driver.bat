@@ -1,0 +1,2 @@
+copy vuforia_driver\build\release\DriverTemplate.dll ..\..\unity\VuforiaControllerTracker\App\VFModelTarget
+copy vuforia_driver\build\release\DriverTemplate.dll ..\..\unity\VuforiaControllerTracker\App\VFModelTarget\Plugins\x64

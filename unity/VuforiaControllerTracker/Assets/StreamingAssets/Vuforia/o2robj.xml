@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="o2r" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="o2rs_assembly" assemblyId="9718e7e839864b06a72cdfdb48f40dea">
+<Part name="o2r" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.00822435 0.000239974 0.0938704" rotation="AD: 0.9973217132330282 0.18457762275300404 -0.46932759649426586 218.678" trained="yes">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="-0.00822435 0.000239974 0.0938704" rotation="AD: 0.9973217132330282 0.18457762275300404 -0.46932759649426586 218.678" trained="yes">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.00833086 -0.00218451 0.0994253" rotation="AD: 0.9999556926406187 0.014167452101095034 -0.8892361692800256 181.364" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="o2robj" />
+</QCARConfig>

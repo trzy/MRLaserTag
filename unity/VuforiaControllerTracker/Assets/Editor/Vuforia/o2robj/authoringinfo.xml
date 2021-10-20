@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="20.0" toolVersion="9.8.5">
+<ModelTarget name="o2r" targetId="0a68893534ac4985bdced47216b3326b" version="11.1" toolVersion="9.8.5" bbox="-0.021369 -0.028607 -0.029949 0.014928 0.024380 0.013930" previewImage="0a68893534ac4985bdced47216b3326b_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="o2rs_assembly" assemblyId="9718e7e839864b06a72cdfdb48f40dea">
+<Part name="o2r" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.00822435 0.000239974 0.0938704" rotation="AD: 0.9973217132330282 0.18457762275300404 -0.46932759649426586 218.678" image="o2r_viewpoint_0000.png" trained="yes">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="-0.00822435 0.000239974 0.0938704" rotation="AD: 0.9973217132330282 0.18457762275300404 -0.46932759649426586 218.678" image="o2r_viewpoint_0001.png" trained="yes">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.00833086 -0.00218451 0.0994253" rotation="AD: 0.9999556926406187 0.014167452101095034 -0.8892361692800256 181.364" image="o2r_viewpoint_0002.png" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase mtDBid="981c5ef369704968b87e2fd2c435eb94" name="o2robj" toolVersion="13.0" version="13.0">
+    <RecognitionResult assemblyId="9718e7e839864b06a72cdfdb48f40dea" assemblyName="o2r" entryPoint="viewpoint_0000" />
+    <RecognitionResult assemblyId="9718e7e839864b06a72cdfdb48f40dea" assemblyName="o2r" entryPoint="viewpoint_0001" />
+    <RecognitionResult assemblyId="9718e7e839864b06a72cdfdb48f40dea" assemblyName="o2r" entryPoint="viewpoint_0002" />
+</ModelTargetDatabase>
+
+</QCARInfo>

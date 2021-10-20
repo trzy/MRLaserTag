@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="o2right_cm_mat_Copy" targetId="8b2cbdadc06c4a1a8d2f6a64f5378343" version="11.1" toolVersion="9.8.5" bbox="-0.054278 -0.072663 -0.076071 0.037918 0.061924 0.035382" previewImage="8b2cbdadc06c4a1a8d2f6a64f5378343_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="o2right_cm_mat_Copys_assembly" assemblyId="1b08776bca6248fe912e2eddc6172b1b">
+<Part name="o2right_cm_mat_Copy" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0002" translation="-0.0208903 0.00060877 0.238431" rotation="AD: 0.9973218037822563 0.18457537803198407 -0.46932450500414946 218.678" image="o2right_cm_mat_Copy_viewpoint_0002.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
