@@ -15,6 +15,8 @@ Please view [the project video](https://www.youtube.com/watch?v=uvGqlmGOolk) for
 
 Keep in mind this project is a very rough proof-of-concept developed in a matter of weeks. I don't expect anyone to actually attempt to run this code but it is technically possible to do so. I hope it serves as an inspiration for your own cool mixed reality projects.
 
+**NOTE:** All licensed assets have been stripped out of this repository and replaced with "gray box" versions.
+
 ## Setup Instructions
 
 The physical set up and build process is documented to the best of my ability here. There is no automated build system. Windows on x86-64 is the only supported platform.
@@ -149,7 +151,7 @@ The *HMD* scene located in `Assets/Scenes` of the **LaserTag** Unity project can
 
 There is also a *Spectator* scene which is intended to be run on the PC. It can be run directly from the editor or built as a standalone Windows binary.
 
-**NOTE**: The host address of the server is hard coded to `192.168.0.100` and must be changed before building to match your server PC address. This is located on the *Network* game object under either *HMDApp* or *SpectatorApp*, depending on which scene you are in. The port should not be changed because it is hard-coded to 6810 in `src/python/networking/tcp.py`.
+**NOTE:** The host address of the server is hard coded to `192.168.0.100` and must be changed before building to match your server PC address. This is located on the *Network* game object under either *HMDApp* or *SpectatorApp*, depending on which scene you are in. The port should not be changed because it is hard-coded to 6810 in `src/python/networking/tcp.py`.
 
 ![Network game object in hierarchy](assets/doc/Network_Hierarchy.png) ![Network inspector](assets/doc/Network_Inspector.png)
 
